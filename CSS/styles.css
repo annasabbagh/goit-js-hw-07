@@ -1,0 +1,30 @@
+/* ------------- Task 3 ------------- */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery_item {
+  width: 50%;
+  list-style: none;
+}
+.gallery_img {
+  max-width: 100%;
+}
+
+/* ------------- END Task 3 ------------- */
+
+/* ------------- Task 6 ------------- */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+/* ------------- END Task 6 ------------- */
